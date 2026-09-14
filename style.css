@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #121212;
+    background-color: black;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 15px, 80px;
+    height: 150px;
+    background-color: #201240;
+    border-bottom: 5px solid #00d2ff;
+}
+
+.header:hover {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 15px, 80px;
+    height: 150px;
+    background-color: #70061f;
+    border-bottom: 5px solid #00d2ff;
+}
+
+.logo {
+    color: rgb(0, 166, 255);
+    font-weight: 800;
+    font-style: italic;
+    font-size: 26px;
+    margin: 0 auto;
+}
+
+.passport-container {
+    display: flex;             
+    gap: 30px;    
+    flex: 1;       
+}
+
+.passport-text {
+    border: 2px solid white; 
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    flex: 1;
+}
+
+.passport-text:hover {
+    border: 2px solid white; 
+    background-color:#201240;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    flex: 1;
+}
+
+
+.video-box {
+    border: 2px solid white; 
+    padding: 20px;
+    margin: 20px;       
+    border-radius: 8px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    flex: 1;                
+}
+
+.video-box:hover {
+    border: 2px solid white;
+    background-color:#201240;
+    padding: 20px;
+    margin: 20px;       
+    border-radius: 8px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    flex: 1;
+}
+
+.passport-mini-text {
+    font-weight: 800;
+    font-style: italic;
+    font-size: 20px;
+    color: rgb(0, 166, 255);
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 15px, 80px;
+    height: 150px;
+    background-color: #201240;
+    border-top: 5px solid #00d2ff;
+}
+
+.footer:hover {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 15px, 80px;
+    height: 150px;
+    background-color: #70061f;
+    border-top: 5px solid #00d2ff;
+}
+
+.footer-text {
+    color: rgb(0, 166, 255);
+    font-weight: 800;
+    font-style: italic;
+    font-size: 26px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
